@@ -1,0 +1,201 @@
+	* {
+		margin: 0px;
+	}
+	body{ 
+		background-image: url("pfruit.jpg");
+		height: 100%;
+	}
+	#SiteName {
+	top: 0;
+	z-index: 999;
+	opacity: 0.5;
+	position: fixed;
+    background-color:black;
+    width:100%;
+    height:70px;
+    left:auto;
+    right:auto;
+    text-align: left;
+    text-indent: 10px;
+    font-size:  45px;
+    color: white;
+	}
+	#content{
+		padding-top: 100px; 
+		min-height: 100%;
+		position: relative;
+		margin-left: auto;
+	    margin-right: auto;
+  	    width: 50%;
+	}
+	#content:after{
+		content: "";
+		display: block;
+		height: 150px;
+	}
+	.title{
+		border-radius: 8px;
+		color: #007A39;
+		font-size: 30px;
+		text-indent: 10px;
+		font-weight: 900;
+		opacity: 0.7;
+		background-color: #FE836B;
+		height: 50px;
+		text-align: left; 
+	}
+	.detail{
+		color: gray;
+		text-align: right;
+
+	}
+
+	.reply_board:hover{
+		display: none;
+		position: relative;
+		padding: 30px;
+		border-radius: 0px 0px 10px 10px;
+		opacity: 1.0; 
+		background-color: #fae5e4;
+		text-align:left;
+		margin-bottom: 3em;
+	
+	}
+	.reply_author{
+		color: 	#00bfff;
+		display: table-cell;
+	}
+	.reply_time{
+		text-align: right;
+		color: #cdc9c9;
+		display: table-cell;
+	}
+	.reply_single{
+		display: table-row;
+	}
+	.reply_form{
+		padding-top: 10px;
+	}
+	.board{
+		position: relative;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px ;
+		opacity: 0.7; 
+		background-color: white;
+		text-align:left;
+		margin-top: 3em;
+		overflow: hidden;
+	}
+	.edit{
+		position: absolute;
+		right: 10px;
+		top: 8px;
+		cursor:pointer;
+		opacity: 0.7;
+		z-index:100;
+	}
+	.report{
+		position: absolute;
+		right: 10px;
+		top: 8px;
+	}
+	.board:hover{
+		opacity: 1.0;
+		background-color: #fae5e4;
+
+	}
+	#footer{
+		  padding: 10px;
+		  background-color: #E6E5C6;
+	　	  position: relative;
+		  text-align: center;
+		　margin-top: -90px;
+		  height: 90px;
+    	  opacity: 0.8;
+	}
+	.post_content {
+		padding: 10px;
+		text-indent: 50px;
+		line-height: 1.5;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:visited {
+		color: white;
+	}
+	#user_page {
+		position: absolute;
+		right: 70px;
+		top: 8px;
+	}
+	#logout {
+		position: absolute;
+		right: 10px;
+		top: 8px;
+	}
+	.delete_btn_pos{
+		position: absolute;
+		right: 80px;
+		bottom: 8px;
+	}
+	.reply_btn_pos{
+		position: absolute;
+		right: 10px;
+		bottom: 8px;
+	}
+	.border{
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	.edit_div{
+		display: none;
+	}
+    .button-error {
+        background: rgb(202, 60, 60); /* this is a maroon */
+    }
+    .button-secondary{
+            color: white;
+            border-radius: 4px;
+             background: rgb(66, 184, 221);
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+     }
+     .edit_submit_button{
+     	color: white;
+        border-radius: 4px;
+        background: #39b9a1;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        right: 90px;
+        bottom: 70px;
+     }
+     .button-send{
+     	color: white;
+        border-radius: 4px;
+        background: #39b9a1;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        height: 1.5em;
+        line-height: 0.5;
+     }
+	.post_content {
+		padding: 10px;
+		text-indent: 50px;
+		line-height: 1.5;
+	}
+
+	.reply_single{
+		padding: 10px;
+		text-indent: 10px;
+		line-height: 1.5;
+	}
+	.reply_board{
+		display: none;
+		position: relative;
+		padding: 30px;
+		border-radius: 0px 0px 10px 10px;
+		opacity: 0.7; 
+		background-color: white;
+		text-align:left;
+		margin-bottom: 3em;
+	
+	}
