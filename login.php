@@ -21,14 +21,14 @@ if(isset($_SESSION['login'])) {
 		$("#submit").on("click", function(){
 			event.preventDefault();
 			$.ajax({
-	            url: "authenticate.php",
-	            type: "POST",
-	            data: {  username: $("#username").val() , password: $("#password").val()},
-	            success: function (data) {
-	            	console.log(data);
-	                $("#information").prepend(data);
-	            }
-        	});
+	            		url: "authenticate.php",
+	            		type: "POST",
+	            		data: {  username: $("#username").val() , password: $("#password").val()},
+	            		success: function (data) {
+	            			console.log(data);
+	                		$("#information").prepend(data);
+	            		}
+        		});
 		});
 	});
 
